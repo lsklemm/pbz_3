@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дочь -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дочь"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мать -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мать"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#отец -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#отец"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сын -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сын"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#возраст -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#возраст"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#место_возникновения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#место_возникновения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#период_возникновения -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#период_возникновения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#стоимость -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#стоимость"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#британская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#британская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мейн-кун -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мейн-кун">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#невская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#невская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#русская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#русская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сиамская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сиамская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сибирская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сибирская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сфинкс -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сфинкс">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#украинская -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#украинская">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#аро -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#аро">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сфинкс"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#барсик"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#винсент"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#есус"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#илон"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#катя"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#барсик"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#винсент"/>
+        <возраст>12 лет</возраст>
+        <место_возникновения>Испания</место_возникновения>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</период_возникновения>
+        <стоимость>179 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#барсик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#барсик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сфинкс"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#аро"/>
+        <возраст>16 лет</возраст>
+        <место_возникновения>Испания</место_возникновения>
+        <стоимость>400 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#винсент -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#винсент">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сфинкс"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#аро"/>
+        <возраст>13 лет</возраст>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#витек -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#витек">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мейн-кун"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#герда"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#глаша"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кекс"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кеша"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#клеопатра"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сало"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#тайлер"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#той"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#герда"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#глаша"/>
+        <возраст>4 года</возраст>
+        <место_возникновения>Франция</место_возникновения>
+        <стоимость>60 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#герда -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#герда">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мейн-кун"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#витек"/>
+        <возраст>5 лет</возраст>
+        <период_возникновения>Франция</период_возникновения>
+        <стоимость>75 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#глаша -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#глаша">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#мейн-кун"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#витек"/>
+        <место_возникновения>Франция</место_возникновения>
+        <период_возникновения>2016 год</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дана -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дана">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#британская"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дон"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дымка"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#лайк"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#маля"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#персик"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#поп"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#ричард"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#рыжик"/>
+        <дочь rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дон"/>
+        <дочь rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дымка"/>
+        <возраст>2 месяца</возраст>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</период_возникновения>
+        <стоимость>600 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#британская"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дана"/>
+        <место_возникновения>Германия</место_возникновения>
+        <стоимость>800 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дымка -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дымка">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#британская"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#дана"/>
+        <возраст>4 года</возраст>
+        <место_возникновения>Германия</место_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#есус -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#есус">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#украинская"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#илон"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#катя"/>
+        <возраст>6 лет</возраст>
+        <стоимость>300 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#илон -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#илон">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#украинская"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#есус"/>
+        <возраст>10 месяцев</возраст>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#катя -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#катя">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#бесшерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#украинская"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#есус"/>
+        <возраст>2 года</возраст>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кекс -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кекс">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#невская"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кеша"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#клеопатра"/>
+        <место_возникновения>Куба</место_возникновения>
+        <стоимость>600 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кеша -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кеша">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#невская"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кекс"/>
+        <возраст>2 месяца</возраст>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#клеопатра -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#клеопатра">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#невская"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#кекс"/>
+        <место_возникновения>Египет</место_возникновения>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#лайк -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#лайк">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#русская"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#маля"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#персик"/>
+        <возраст>1 год</возраст>
+        <место_возникновения>Египет</место_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#маля -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#маля">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#русская"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#лайк"/>
+        <возраст>15 лет</возраст>
+        <место_возникновения>Беларусь</место_возникновения>
+        <стоимость>бесплатно</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#персик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#персик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#русская"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#лайк"/>
+        <возраст>10 месяцев</возраст>
+        <место_возникновения>Беларусь</место_возникновения>
+        <стоимость>бесплатно</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#поп -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#поп">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сиамская"/>
+        <дочь rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#ричард"/>
+        <дочь rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#рыжик"/>
+        <место_возникновения>Шотландия</место_возникновения>
+        <стоимость>400 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#ричард -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#ричард">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сиамская"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#поп"/>
+        <место_возникновения>Нидерланды</место_возникновения>
+        <период_возникновения rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</период_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#рыжик -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#рыжик">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#короткошерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сиамская"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#поп"/>
+        <возраст>10 лет</возраст>
+        <место_возникновения>Нидерланды</место_возникновения>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сало -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сало">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сибирская"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#тайлер"/>
+        <сын rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#той"/>
+        <место_возникновения>Украина</место_возникновения>
+        <стоимость>бесплатно</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#тайлер -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#тайлер">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сибирская"/>
+        <мать rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сало"/>
+        <стоимость>60 $</стоимость>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#той -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#той">
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#длинношерстные"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сибирская"/>
+        <отец rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/4/untitled-ontology-4#сало"/>
+        <возраст>9 лет</возраст>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
